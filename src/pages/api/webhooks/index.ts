@@ -64,6 +64,7 @@ export class WebhooksController extends BaseBigCommerceController {
   }
 
   protected async orderCreated(res) {
+    console.log(1);
     // Init BigCommerce v2 api to get order and order products
     this.initBigApi("v2");
 
